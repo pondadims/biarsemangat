@@ -5,7 +5,7 @@
     <meta charset="UTF-8" />
     <link rel="shortcut icon" type="x-icon" href="asset/caticon.png">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title> 君に届け</title>
+    <title>good bye</title>
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
         integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
     <link rel="stylesheet" href="../res/fontawesome/css/all.css" />
@@ -16,13 +16,13 @@
 
     <!-- audio -->
     <div class="container-utama">
-        <audio id="player" src="audio/Nathaniel Constantin - A Piece of You (Official Lyric Video).mp3"></audio>
+        <audio id="player" src="audio/Disasterology.mp3"></audio>
         <div class="player">
             <div class="control">
                 <i class="fas fa-play" id="playbtn"></i>
             </div>
             <div class="info">
-                Nathaniel Constantin - A Piece of You
+                Disasterology
                 <div class="bar">
                     <div id="progress"></div>
                 </div>
@@ -30,51 +30,28 @@
             <div id="current">0:00</div>
         </div>
 
-        <!-- Pembukaan -->
-        <div class="header-container">
-            <div class="header-text">
-                <h5>hi..<span>yaya</span><br>si calon dokter</h5>
+        <!-- tulisan and foto -->
+        <div class="section-container">
+            <div class="section-1">
+                <label for="" class="bird"></label>
             </div>
         </div>
-    </div>
 
-    <!-- tulisan and foto -->
-    <div class="section-container">
-        <div class="section-1">
-            <iframe style="border-radius:12px"
-                src="https://open.spotify.com/embed/playlist/6heBu1A8NTW5syelFnBB0r?utm_source=generator" width="100%"
-                height="352" frameBorder="0" allowfullscreen=""
-                allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy">
-            </iframe>
-        </div>
-        <div class="section-2">
-            <img src="asset/WhatsApp Image 2024-09-04 at 19.04.12_de0c2d79.jpg" class="photo">
-            <div class="text">
-                <h3>::::</h3>
-                <p>tema nya warna ungu karna
-                    pas ketemu warna bajunya samaan wkwk
-                    itu lagunya di pencet biar ga bosen liatnya yahh
-                    sama juga ada playlist nya keren yeahh</p>
+        <!-- quizz -->
+        <div class="app">
+            <h1>Survey</h1>
+            <div class="quizz">
+                <h3 id="question">Question goes here</h3>
+                <div id="answer-buttons">
+                    <button class="btn">Answer 1</button>
+                    <button class="btn">Answer 2</button>
+                    <button class="btn">Answer 3</button>
+                    <button class="btn">Answer 4</button>
+                </div>
+                <button id="next-btn">Next</button>
             </div>
         </div>
-    </div>
-
-    <!-- ending section -->
-    <div class="ending-section">
-        <div class="ending-picture">
-            <img src="asset/dokter.jpg" alt="">
-        </div>
-        <div class="wrapper">
-            <div class="lid one"></div>
-            <div class="lid two"></div>
-            <div class="envelope"></div>
-            <div class="letter">
-                <p>Semangat Cantik</p>
-            </div>
-        </div>
-    </div>
-
-    <script src="./player.js"></script>
 </body>
+<script src="./player.js"></script>
 
 </html>
